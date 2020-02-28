@@ -1,0 +1,8 @@
+name: jkamizato
+recipe: pantheon
+config:
+  webroot: .
+  framework: drupal8
+  site: jkamizato
+  id: e8ef4c80-f4ba-4260-89a4-09aa3f115ef4
+  xdebug: true
