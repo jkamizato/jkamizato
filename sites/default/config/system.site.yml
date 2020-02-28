@@ -1,0 +1,14 @@
+uuid: 2ab6037a-c1cd-4ee9-9280-02428087487b
+name: jkamizato
+mail: jkamizato@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
