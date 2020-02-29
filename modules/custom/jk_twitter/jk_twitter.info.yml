@@ -1,0 +1,4 @@
+name: JK Twitter Crawler
+description: Import data from twitter using cron jobs. For no reason.
+core: 8.x
+type: module
