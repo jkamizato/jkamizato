@@ -5,12 +5,7 @@
  */
 function jk_twitter_cron() {
   return;
-  $settings = array(
-    'oauth_access_token' => "150108709-fCoI1teqVmwnEf2R0YDvl9K8rx33yPbr2N1Wy6IK",
-    'oauth_access_token_secret' => "xyPqanEdVZQ3OCPlhYf6WRdPkI9zpVCsb7GeYBoj2KNFg",
-    'consumer_key' => "rCFnF5SMO0CeQqfacSJIgMhSb",
-    'consumer_secret' => "Zko0ATZYO87rM0hGJMOnN939TRFIygCmCP1uwDaE1DXELCaWUP"
-  );
+
   $url = 'https://api.twitter.com/1.1/search/tweets.json';
   $getfield = '?q=drupal&result_type=recent';
   $requestMethod = 'GET';
