@@ -24,6 +24,8 @@
         "j7mbo/twitter-api-php": "^1.0"
     },
     "require-dev": {
+        "drupal/console": "~1.0",
+        "drupal/devel": "^2.1"
     },
     "conflict": {
         "drupal/drupal": "*"
