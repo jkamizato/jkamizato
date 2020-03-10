@@ -1,0 +1,20 @@
+uuid: b02ae176-a8aa-4286-bf01-def13d0a10b3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jkamizato_theme
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: jkamizato_theme_local_actions
+theme: jkamizato_theme
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

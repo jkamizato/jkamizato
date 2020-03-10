@@ -1,0 +1,25 @@
+uuid: 3f3eeaa2-8019-45d6-9bef-85cc1a448e08
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jkamizato_theme
+_core:
+  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+id: jkamizato_theme_branding
+theme: jkamizato_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
