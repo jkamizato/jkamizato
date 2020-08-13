@@ -6,3 +6,5 @@ docroot/libraries
 vendor
 
 .idea
+
+*.sql

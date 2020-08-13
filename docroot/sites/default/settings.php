@@ -774,14 +774,3 @@ if (file_exists($app_root . '/' . $site_path . '/settings.lando.php')) {
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
-$databases['default']['default'] = array (
-  'database' => 'drupal9',
-  'username' => 'drupal9',
-  'password' => 'drupal9',
-  'prefix' => '',
-  'host' => 'database',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['config_sync_directory'] = 'sites/default/files/config_1uGiukgpwh8c81P3Qdrsl9Qw8lHGWgfGUQNbcN_UyNSi2-huB2WnM-0PKTdDdGgCaATJDsRINA/sync';
