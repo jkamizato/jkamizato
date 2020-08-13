@@ -1,0 +1,8 @@
+docroot/core
+docroot/modules/contrib
+docroot/themes/contrib
+docroot/libraries
+
+vendor
+
+.idea

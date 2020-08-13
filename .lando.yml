@@ -4,7 +4,7 @@ config:
   webroot: docroot
 services:
   appserver:
-    type: php:7.4
+    type: php:7.3
     overrides:
       environment:
         DRUSH_OPTIONS_URI: https://jkamizato.lndo.site
