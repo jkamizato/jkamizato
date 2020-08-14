@@ -1,5 +1,5 @@
 {
-    "name": "jkamizato",
+    "name": "jkamizato/jkamizato",
     "description": "jkamizato personal site",
     "type": "project",
     "license": "GPL-2.0-or-later",
@@ -18,7 +18,8 @@
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
-        "drupal/core-recommended": "^9"
+        "drupal/core-recommended": "^9",
+        "drush/drush": "^10.3"
     },
     "conflict": {
         "drupal/drupal": "*"

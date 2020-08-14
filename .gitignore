@@ -2,6 +2,7 @@ docroot/core
 docroot/modules/contrib
 docroot/themes/contrib
 docroot/libraries
+docroot/sites/default/files
 
 vendor
 
