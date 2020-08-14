@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c460a5f80b1e58eb8e5cbb478595cc99",
+    "content-hash": "17aa32cc173b8219ac4c998ffa8686d0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1279,16 +1279,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.0.0",
+            "version": "9.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "b86a9ddcc7f33608845a3219ed63507661ea69ee"
+                "reference": "883018fe0aa16cee450bb043fcb4893c05438283"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/b86a9ddcc7f33608845a3219ed63507661ea69ee",
-                "reference": "b86a9ddcc7f33608845a3219ed63507661ea69ee",
+                "url": "https://api.github.com/repos/drupal/core/zipball/883018fe0aa16cee450bb043fcb4893c05438283",
+                "reference": "883018fe0aa16cee450bb043fcb4893c05438283",
                 "shasum": ""
             },
             "require": {
@@ -1514,22 +1514,16 @@
                     "lib/Drupal/Core/Site/Settings.php"
                 ]
             },
-            "scripts": {
-                "pre-autoload-dump": [
-                    "Drupal\\Core\\Composer\\Composer::preAutoloadDump"
-                ],
-                "post-autoload-dump": [
-                    "Drupal\\Core\\Composer\\Composer::ensureHtaccess"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Drupal is an open source content management platform powering millions of websites and applications."
+            "description": "Drupal is an open source content management platform powering millions of websites and applications.",
+            "time": "2020-08-05T21:47:03+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.0.0",
+            "version": "9.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1563,6 +1557,7 @@
                     "Drupal\\Composer\\Plugin\\Scaffold\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -1570,20 +1565,21 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ]
+            ],
+            "time": "2020-05-29T11:32:13+00:00"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "9.0.0",
+            "version": "9.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
-                "reference": "571ad1a0824d53e1f780584b883ee61a5c8c0b28"
+                "reference": "fbb9d944f82a1f25ab967a8bc22d3dc19479bd11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-project-message/zipball/571ad1a0824d53e1f780584b883ee61a5c8c0b28",
-                "reference": "571ad1a0824d53e1f780584b883ee61a5c8c0b28",
+                "url": "https://api.github.com/repos/drupal/core-project-message/zipball/fbb9d944f82a1f25ab967a8bc22d3dc19479bd11",
+                "reference": "fbb9d944f82a1f25ab967a8bc22d3dc19479bd11",
                 "shasum": ""
             },
             "require": {
@@ -1599,6 +1595,7 @@
                     "Drupal\\Composer\\Plugin\\ProjectMessage\\": "."
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -1606,20 +1603,21 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ]
+            ],
+            "time": "2020-08-02T22:04:44+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.0.0",
+            "version": "9.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "aa63a60cd082e0312d0e3301ce14eec4d469ed60"
+                "reference": "50da17643f7192fb2771f9fbb7b55fc2b22d8be1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/aa63a60cd082e0312d0e3301ce14eec4d469ed60",
-                "reference": "aa63a60cd082e0312d0e3301ce14eec4d469ed60",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/50da17643f7192fb2771f9fbb7b55fc2b22d8be1",
+                "reference": "50da17643f7192fb2771f9fbb7b55fc2b22d8be1",
                 "shasum": ""
             },
             "require": {
@@ -1628,7 +1626,7 @@
                 "doctrine/annotations": "1.10.3",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.1",
-                "drupal/core": "9.0.0",
+                "drupal/core": "9.0.3",
                 "egulias/email-validator": "2.1.17",
                 "guzzlehttp/guzzle": "6.5.4",
                 "guzzlehttp/promises": "v1.3.1",
@@ -1683,10 +1681,12 @@
                 "webflo/drupal-core-strict": "*"
             },
             "type": "metapackage",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core."
+            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
+            "time": "2020-08-05T21:47:03+00:00"
         },
         {
             "name": "drush/drush",
