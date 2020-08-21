@@ -90,15 +90,43 @@
 /*!*******************************!*\
   !*** ./src/js/main.script.js ***!
   \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _polyfill__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./polyfill */ "./src/js/polyfill.js");
+/* harmony import */ var _polyfill__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_polyfill__WEBPACK_IMPORTED_MODULE_0__);
+
+
+
 
 (function ($) {
-  Drupal.behaviors.behaviorName = {
-    attach: function attach(context, settings) {// Your code goes here
+  // Responsive check helper:
+  // USAGE: if (Drupal.device.isMobile()) {}
+  Drupal.device = {
+    isDesktop: function isDesktop() {
+      return $(window).innerWidth() > 980;
+    },
+    isTablet: function isTablet() {
+      return $(window).innerWidth() <= 980 && $(window).innerWidth() > 728;
+    },
+    isMobile: function isMobile() {
+      return $(window).innerWidth() <= 728;
     }
   };
 })(jQuery, Drupal);
+
+/***/ }),
+
+/***/ "./src/js/polyfill.js":
+/*!****************************!*\
+  !*** ./src/js/polyfill.js ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Add your JS/node package pollyfills here
 
 /***/ }),
 
@@ -120,8 +148,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/doxigo/Sites/storybook/web/themes/contrib/bootstrap_storybook/src/js/main.script.js */"./src/js/main.script.js");
-module.exports = __webpack_require__(/*! /Users/doxigo/Sites/storybook/web/themes/contrib/bootstrap_storybook/src/sass/main.style.scss */"./src/sass/main.style.scss");
+__webpack_require__(/*! /app/docroot/themes/custom/jkamizato_theme/src/js/main.script.js */"./src/js/main.script.js");
+module.exports = __webpack_require__(/*! /app/docroot/themes/custom/jkamizato_theme/src/sass/main.style.scss */"./src/sass/main.style.scss");
 
 
 /***/ })

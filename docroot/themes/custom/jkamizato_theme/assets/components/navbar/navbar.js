@@ -1,0 +1,1 @@
+Drupal.behaviors.name386={attach:function attach(a){(function(b){b(".navbar-toggle",a).on("click",function(){b(this).toggleClass("collapsed active navbar-toggle--inactive"),b("body").toggleClass("nav--collapsed"),b(b(this).data("target")).toggleClass("show")})})(jQuery,Drupal)}};
