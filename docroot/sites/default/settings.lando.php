@@ -29,3 +29,5 @@ $config['environment_indicator.indicator']['bg_color'] = '#ed3f7a';
 $config['environment_indicator.indicator']['fg_color'] = '#fff';
 
 $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+
+$settings['config_sync_directory'] = '../config/sync';
