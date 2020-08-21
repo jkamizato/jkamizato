@@ -30,4 +30,4 @@ $config['environment_indicator.indicator']['fg_color'] = '#fff';
 
 $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
 
-$settings['config_sync_directory'] = '../config/sync';
+$settings['config_sync_directory'] = 'config/sync';
