@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Template for all pages.
+ */
+#}
+<div class="page">
+  {% block pageNavigation %}
+    {% include "@jkamizato_theme/section/navigation.twig" %}
+  {% endblock %}
+
+  <main class="pt-5 pb-5">
+    {% block pageMain %}
+      {% include "@jkamizato_theme/section/header.twig" %}
+      {% include "@jkamizato_theme/section/content.twig" %}
+    {% endblock %}
+  </main>
+
+  {% block pageFooter %}
+    {% include "@jkamizato_theme/section/footer.twig" %}
+  {% endblock %}
+</div>

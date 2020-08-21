@@ -1,0 +1,5 @@
+# Schema for the configuration files of the jkamizato_theme theme.
+
+jkamizato_theme.settings:
+  type: theme_settings
+  label: 'jkamizato_theme settings'

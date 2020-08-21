@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17aa32cc173b8219ac4c998ffa8686d0",
+    "content-hash": "5185cbfd841298c275fbd6ccf7f6d183",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1276,6 +1276,118 @@
                 "static"
             ],
             "time": "2020-03-27T11:06:43+00:00"
+        },
+        {
+            "name": "drupal/bootstrap_storybook",
+            "version": "3.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap_storybook.git",
+                "reference": "3.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_storybook-3.0.6.zip",
+                "reference": "3.0.6",
+                "shasum": "5d6683108cc00bf9b14011e6f2c1438b63ffe0f7"
+            },
+            "require": {
+                "drupal/components": "^2.0",
+                "drupal/core": "^8 || ^9"
+            },
+            "require-dev": {
+                "consolidation/robo": "^1.0.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.6",
+                    "datestamp": "1596352227",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drush\\Commands\\bootstrap_storybook\\": "Commands/bootstrap_storybook/"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sohail Lajevardi",
+                    "homepage": "https://www.drupal.org/user/3449435",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "doxigo",
+                    "homepage": "https://www.drupal.org/user/1331334"
+                },
+                {
+                    "name": "jcandan",
+                    "homepage": "https://www.drupal.org/user/1831444"
+                }
+            ],
+            "description": "Drupal theme with built-in support for StorybookJS, Bootstrap 4 and BrowserSync out of the box, leveraging laravel-mix and webpack for better asset management.",
+            "homepage": "https://www.drupal.org/project/bootstrap_storybook",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap_storybook",
+                "issues": "https://www.drupal.org/project/issues/bootstrap_storybook"
+            }
+        },
+        {
+            "name": "drupal/components",
+            "version": "2.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/components.git",
+                "reference": "8.x-2.0-beta3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/components-8.x-2.0-beta3.zip",
+                "reference": "8.x-2.0-beta3",
+                "shasum": "5883c8b6dd358d29127a3c49d1459814c061b566"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0-beta3",
+                    "datestamp": "1594633703",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/32095",
+                    "email": "virtually.johnalbin@gmail.com"
+                },
+                {
+                    "name": "RobLoach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                }
+            ],
+            "description": "Sets up folders of components defined by your theme or module",
+            "homepage": "https://drupal.org/project/components",
+            "support": {
+                "source": "https://git.drupalcode.org/project/components"
+            }
         },
         {
             "name": "drupal/core",

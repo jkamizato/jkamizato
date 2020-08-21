@@ -8,7 +8,22 @@ services:
     overrides:
       environment:
         DRUSH_OPTIONS_URI: https://jkamizato.lndo.site
+  node:
+    type: node
+    globals:
+      gulp-cli: latest
+      npm: latest
+      yarn: latest
+    overrides:
+      ports:
+        - '3000:3000'
 tooling:
   drupal:
     cmd:
       - "/app/vendor/bin/drupal"
+  npm:
+    service: node
+  node:
+    service: node
+  gulp:
+    service: node

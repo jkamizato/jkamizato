@@ -1,0 +1,13 @@
+{#
+/**
+ * @file
+ * Template for the page title.
+ */
+#}
+{% set displaySize = displaySize ?? '4' %}
+
+{{ title_prefix }}
+{% if title %}
+  <h1 class="display-{{displaySize}}">{{ title }}</h1>
+{% endif %}
+{{ title_suffix }}

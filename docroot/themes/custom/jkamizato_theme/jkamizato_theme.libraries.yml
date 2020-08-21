@@ -1,0 +1,13 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/main.style.css: {}
+  js:
+    assets/js/main.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+# We create component libraries automatically, no need to be listed here
+# see `jkamizato_theme.theme` for more info
